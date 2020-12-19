@@ -1,0 +1,294 @@
+/*
+* @Author: Lenovo
+* @Date:   2020-06-12 23:10:05
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2020-12-16 15:33:58
+*/
+#weibo {
+	position: absolute;
+	width: 100%;
+	height: 1198px;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+#weibo #top {
+	height: 55px;
+	width: 100%;
+	border-bottom-style: solid;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #fa7d3c;
+	border-bottom-width: 1px;
+	border-bottom-color: #e9e9e9;
+}
+#weibo #a1170 #a115 {
+	float: left;
+	height: 520px;
+	width: 115px;
+}
+#weibo #top #sousuolan {
+	height: 52px;
+	width: 1238px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sousuo {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #CCC;
+}
+.biaopti {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #666;
+}
+.zhegnwen {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	line-height: 24px;
+	color: #333333;
+}
+#weibo #a1170 {
+	height: 950px;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	text-decoration: none;
+	color: #F60;
+}
+a:active {
+	text-decoration: none;
+}
+#weibo #a1170 #a690 {
+	float: left;
+	height: 870px;
+	width: 690px;
+	margin-left: 18px;
+}
+#weibo #a1170 #a340 {
+	float: left;
+	height: 925px;
+	width: 325px;
+	margin-left: 20px;
+	background-color: #f2f2f5;
+}
+#weibo #a1170 #a115 #daohang {
+	height: 38px;
+	width: 115px;
+	margin-top: 2px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #CCC;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 3px;
+}
+#a115 div:hover{
+	background-color:#fc3f31;
+}
+#weibo #a1170 #a115 #daohang01 {
+	height: 38px;
+	width: 115px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #FFF;
+	line-height: 38px;
+	text-align: center;
+	background-color: #fc4432;
+	border-radius: 3px;
+}
+.d_out{
+	background-color:#ffffff;
+}
+a.white:link {
+	color: #353535;
+	text-decoration: none;
+}
+a.white:visited {
+	text-decoration: none;
+	color: #353535;
+}
+a.white:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+a.white:active {
+	text-decoration: none;
+}
+#weibo #a1170 #a690 #banner {
+	height: 300px;
+	width: 690px;
+}
+#weibo #a1170 #a690 #pubuliu {
+	height: 195px;
+	margin-top: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d5d5d5;
+}
+#weibo #a1170 #a340 #degnlu {
+	height: 288px;
+	width: 300px;
+	margin-top: 25px;
+	margin-left: 13px;
+	background-color: #ffffff;
+}
+#weibo #a1170 #a340 #a300_544 {
+	height: 544px;
+	width: 300px;
+	margin-top: 16px;
+	margin-left: 13px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FE813F;
+}
+xiaozi {
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #CCC;
+}
+.a_xiaozi {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #999;
+}
+#weibo #down {
+	height: 140px;
+	background-color: #f2f2f5;
+	width: 100%;
+	margin-top: 30px;
+}
+#weibo #down #down966 {
+	height: 140px;
+	width: 966px;
+	margin-right: auto;
+	margin-left: auto;
+}
+*
+input, button, select, textarea {
+	outline:none;
+}
+textarea {
+	font-size:13px;
+	resize:none;
+}
+ul,li{
+	list-style: none;
+}
+/* #picbox{
+	width:550px;
+	height:300px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	 background: url("../images/p1.png"); */ /* 图1
+    /* background-size: 100% 100%;
+	animation: banner 10s infinite;  */ 
+/* } */
+#container{
+    width: 700px;
+    height: 300px;
+    border: 3px solid #333;
+    overflow: hidden;
+    position: relative;
+}
+
+#list{
+    width: 4900px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+#list img{
+    width: 700px;
+    float: left;
+}
+
+#buttons{
+    position: absolute;
+    height: 10px;
+    width: 110px;
+    z-index: 2;
+    bottom: 20px;
+    left: 20px;
+}
+
+#buttons span{
+    cursor: pointer;
+    float: left;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-right: 8px; 
+}
+
+#desc{
+    font-size: 16px;
+    color: #222;
+    z-index: 3;
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
+
+@keyframes longbtn{
+    0%{width: 10px;}
+    100%{width: 20px;}
+}
+
+#buttons .on{
+    background: #ccc;
+    border-radius: 15px;
+    animation: longbtn 0.5s ease; 
+    width: 20px;
+} 
+
+.arrow{
+    cursor: pointer;
+    display: none;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    background: #fff;;
+}
+
+.arrow:hover{
+    background: RGBA(0,0,0,0.7);
+}
+
+#container:hover .arrow{
+    display: block;
+}
+
+#prev{
+    left: 10px;
+}
+
+#next{
+    right: 10px;
+}
+
+        
+
+
